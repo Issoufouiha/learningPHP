@@ -27,6 +27,8 @@
      echo   $tableauAssociative['Prenom'].'<br>';
      echo  $tableauAssociative['Pays'].'<br>';
      echo  $tableauAssociative['Captal'].'<br>';
+    //  tableau multidimensionelle
+    
         ?>
 
     </body>
