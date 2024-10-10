@@ -12,6 +12,7 @@
             $_SESSION['name']=$_POST['name'];
             $_SESSION['password']=$_POST['password'];
             echo 'Bienvenu'. $utlisateur;
+            $_SESSION['name']
         }else{
             echo "Utlisateur non reconnu" ;
         }
