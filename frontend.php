@@ -12,7 +12,7 @@
     </li>
     <li>
       <label for="mail">E-mail&nbsp;:</label>
-      <input type="email" id="mail" name="user_mail" />
+      <input type="email" id="mail" name="mail" />
     </li>
     <li>
       <label for="msg">Message&nbsp;:</label>

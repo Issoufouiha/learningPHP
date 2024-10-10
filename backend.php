@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Premiere en php</title>
+        <title> BackEnd</title>
     </head>
     <body>
         <?php
-        $nom = $_POST['user_nam'];
-        $email = $_POST['user_mail'];
+        $nom = $_POST['name'];
+        $email = $_POST['mail'];
         $msg = $_POST['msg'];
-        echo 'mon nom est'. $nom;
-        echo 'mon email est'. $email;
-        echo 'mon message est'. $msg;
+        echo 'mon nom est'. $nom .'<br>';
+        echo 'mon email est'. $email .'<br>';
+        echo 'mon message est'. $msg .'<br>';
         ?>
     </body>
 </html>
